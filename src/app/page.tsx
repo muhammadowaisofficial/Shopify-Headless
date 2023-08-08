@@ -6,6 +6,7 @@ import ContactSec from "@/components/Home/ContactSec";
 import FutureProducts from "@/components/Home/FutureProducts";
 import { GetQuoteSec } from "@/components/Home/GetQuoteSec";
 import OverviewSec from "@/components/Home/OverviewSec";
+import { getCollectionByHandle } from "@/lib/storefront/getCollections"
 
 export default function Home() {
   return (
